@@ -29,7 +29,7 @@
             <div class="profile-page">
                 <section class="section section-skew">
                     <div class="container">
-                        <card shadow style="background: linear-gradient(150deg, #3c096c 15%, #5a189a 70%, #7b2cbf 94%);"
+                        <card shadow body-classes="py-10" style="background: linear-gradient(150deg, #3c096c 15%, #5a189a 70%, #7b2cbf 94%);border-radius: 10px;"
                             class="card-profile mt--300" no-body>
                             <div class="px-4">
                                 <div class="row justify-content-center">
@@ -127,8 +127,8 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <div class="row row-grid">
-                            <div class="col-lg-4">
-                                <card class="border-0" hover shadow body-classes="py-5">
+                            <div  class="col-lg-4">
+                                <card style="border-radius: 10px;" class="border-0" hover shadow body-classes="py-10">
                                     <icon name="fa fa-code" type="light-purple" rounded class="mb-4">
                                     </icon>
                                     <h6 class="text-light-purple text-uppercase display-5 font-weight-bold">Software
@@ -149,7 +149,7 @@
                                 </card>
                             </div>
                             <div class="col-lg-4">
-                                <card class="border-0" hover shadow body-classes="py-5">
+                                <card class="border-0" style="border-radius: 10px;" hover shadow body-classes="py-10">
                                     <icon name="fa fa-bar-chart" type="indigo" rounded class="mb-4">
                                     </icon>
                                     <h6 class="text-indigo text-uppercase display-5 font-weight-bold">Business Intelligence
@@ -171,7 +171,7 @@
                                 </card>
                             </div>
                             <div class="col-lg-4">
-                                <card class="border-1" hover shadow body-classes="py-5">
+                                <card class="border-1" style="border-radius: 10px;" hover shadow body-classes="py-10">
                                     <icon name="fa fa-line-chart" type="purple" rounded class="mb-4">
 
                                     </icon>
@@ -242,11 +242,11 @@
         </section>
         <section class="section bg-white">
 
-            <div class="container">
+            <div  class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6">
-                        <div class="card bg-indigo shadow border-0">
-                            <img v-lazy="'img/theme/meet.jpg'" class="card-img-top">
+                        <div style="border-radius: 10px;" class="card bg-indigo shadow border-0">
+                            <img style="border-radius: 10px;" v-lazy="'img/theme/meet.jpg'" class="card-img-top">
                             <blockquote class="card-blockquote">
                                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
                                     class="svg-bg">

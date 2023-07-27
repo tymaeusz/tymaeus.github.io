@@ -6,16 +6,16 @@
         <div class="container container-lg">
             <div class="row">
                 <div class="col-md-6 mb-5 mb-md-0">
-                    <div class="card card-lift--hover shadow border-0">
+                    <div style="border-radius: 10px;" class="card card-lift--hover shadow border-0">
                         <a title="Sistemas full code!">
-                            <img v-lazy="'img/theme/void-code.png'" class="card-img">
+                            <img style="border-radius: 10px;" v-lazy="'img/theme/void-code.png'" class="card-img">
                         </a>
                     </div>
                 </div>
                 <div class="col-md-6 mb-5 mb-lg-0">
-                    <div class="card card-lift--hover shadow border-0">
+                    <div style="border-radius: 10px;" class="card card-lift--hover shadow border-0">
                         <a title="Sistemas totalmente coustomizáveis!">
-                            <img v-lazy="'img/theme/void-spring.png'" class="card-img">
+                            <img style="border-radius: 10px;" v-lazy="'img/theme/void-spring.png'" class="card-img">
                         </a>
                     </div>
                 </div>
@@ -90,4 +90,5 @@ export default {
 
     background: linear-gradient(150deg, #3c096c 15%, #5a189a 70%, #7b2cbf 94%) !important;
 
-}</style>
+}
+</style>
