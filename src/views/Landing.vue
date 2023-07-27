@@ -29,7 +29,8 @@
             <div class="profile-page">
                 <section class="section section-skew">
                     <div class="container">
-                        <card shadow body-classes="py-10" style="background: linear-gradient(150deg, #3c096c 15%, #5a189a 70%, #7b2cbf 94%);border-radius: 10px;"
+                        <card shadow body-classes="py-10"
+                            style="background: linear-gradient(150deg, #3c096c 15%, #5a189a 70%, #7b2cbf 94%);border-radius: 10px;"
                             class="card-profile mt--300" no-body>
                             <div class="px-4">
                                 <div class="row justify-content-center">
@@ -51,26 +52,26 @@
                                                 type="ultra-light" icon="fa fa-whatsapp" size="sm"
                                                 class="float-right">Whatsapp</base-button>
                                         </div>
-                                        
+
                                     </div>
                                     <div class="col-lg-4 order-lg-1">
                                         <div class="card-profile-stats d-flex justify-content-center">
                                             <div>
                                                 <span style="color: #e0aaff;" class="heading">{{ dolar }}</span>
-                                                <span style="color: white;"
-                                                    class="description font-weight-bold">Dólar (diário)</span>
+                                                <span style="color: white;" class="description font-weight-bold">Dólar
+                                                    (diário)</span>
                                             </div>
                                             <div>
                                                 <span style="color: #e0aaff;" class="heading">{{ inflacao }}%</span>
-                                                <span style="color: white;"
-                                                    class="description font-weight-bold">IPCA (mensal)</span>
+                                                <span style="color: white;" class="description font-weight-bold">IPCA
+                                                    (mensal)</span>
                                             </div>
                                             <div>
                                                 <span style="color: #e0aaff;" class="heading">{{ repos }}</span>
                                                 <span style="color: white;"
                                                     class="description font-weight-bold">Repositórios públicos</span>
                                             </div>
-                                          
+
                                         </div>
                                     </div>
                                 </div>
@@ -112,7 +113,7 @@
                                                 soluções que impulsionarão seu negócio para o sucesso!
 
                                             </p>
-                                           
+
                                         </div>
                                     </div>
                                 </div>
@@ -127,13 +128,14 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <div class="row row-grid">
-                            <div  class="col-lg-4">
+                            <div class="col-lg-4">
                                 <card style="border-radius: 10px;" class="border-0" hover shadow body-classes="py-10">
                                     <icon name="fa fa-code" type="light-purple" rounded class="mb-4">
                                     </icon>
                                     <h6 class="text-light-purple text-uppercase display-5 font-weight-bold">Software
                                         Development</h6>
-                                    <p style="text-align: justify;"  class="description mt-3 font-weight-bold">Automatize seus processos com meus serviços
+                                    <p style="text-align: justify;" class="description mt-3 font-weight-bold">Automatize
+                                        seus processos com meus serviços
                                         de
                                         desenvolvimento de software. Cristalize suas ideias em soluções de software
                                         personalizadas, juntos criaremos sistemas elegantes que transformam seus desafios em
@@ -143,7 +145,9 @@
                                         <badge type="light-purple" rounded>software</badge>
                                         <badge type="light-purple" rounded>tecnologia</badge>
                                     </div>
-                                    <base-button target="_blank" tag="a" href="https://fia.com.br/blog/desenvolvimento-de-softwares/" type="light-purple" class="mt-4">
+                                    <base-button target="_blank" tag="a"
+                                        href="https://fia.com.br/blog/desenvolvimento-de-softwares/" type="light-purple"
+                                        class="mt-4">
                                         Saber mais
                                     </base-button>
                                 </card>
@@ -154,7 +158,8 @@
                                     </icon>
                                     <h6 class="text-indigo text-uppercase display-5 font-weight-bold">Business Intelligence
                                     </h6>
-                                    <p style="text-align: justify;"  class="description mt-3 font-weight-bold">No mundo acelerado de hoje, ter insights em
+                                    <p style="text-align: justify;" class="description mt-3 font-weight-bold">No mundo
+                                        acelerado de hoje, ter insights em
                                         tempo real ao
                                         seu alcance é a chave para tomar decisões informadas. Com o Power B.I., você pode
                                         liberar o verdadeiro potencial de seus dados, transformando números brutos em
@@ -176,8 +181,9 @@
 
                                     </icon>
 
-                                    <h6  class="text-purple text-uppercase display-5 font-weight-bold">Business Process</h6>
-                                    <p style="text-align: justify;"  class="description mt-3 font-weight-bold">Explore futuro da otimização de negócios
+                                    <h6 class="text-purple text-uppercase display-5 font-weight-bold">Business Process</h6>
+                                    <p style="text-align: justify;" class="description mt-3 font-weight-bold">Explore futuro
+                                        da otimização de negócios
                                         com BPMN (Business Process Model and Notation). Eleve o desempenho de sua empresa',
                                         pois o BPMN permite que você orquestre fluxos de trabalho complexos com precisão
                                         cirúrgica.</p>
@@ -206,9 +212,11 @@
                     </div>
                     <div class="col-md-6 order-md-1">
                         <div class="pr-md-5">
-                            <icon name="ni ni-settings" class="mb-5 text-white" size="lg" type="indigo" shadow rounded></icon>
+                            <icon name="ni ni-settings" class="mb-5 text-white" size="lg" type="indigo" shadow rounded>
+                            </icon>
                             <h3 style="color: #3C096C;font-weight: bold;">Soluções customizáveis</h3>
-                            <p style="color: white;text-align: justify;" class="font-weight-bold">Reconhecendo que cada cliente é único, procuro
+                            <p style="color: white;text-align: justify;" class="font-weight-bold">Reconhecendo que cada
+                                cliente é único, procuro
                                 focar minha abordagem em criar soluções sob medida, adaptadas às suas necessidades
                                 específicas. Almejando a transparência no desenvolvimento e entrega da solução, assim como
                                 na negociação. </p>
@@ -242,7 +250,7 @@
         </section>
         <section class="section bg-white">
 
-            <div  class="container">
+            <div class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6">
                         <div style="border-radius: 10px;" class="card bg-indigo shadow border-0">
@@ -254,7 +262,8 @@
                                     <polygon points="0,42 583,95 683,0 0,95" opacity=".2" fill="#5603ad"></polygon>
                                 </svg>
                                 <h4 class="display-3 font-weight-bold text-white">Transparência</h4>
-                                <p style="text-align: justify;" class="lead text-italic text-white font-weight-bold">No âmbito das negociações, a adoção de uma abordagem
+                                <p style="text-align: justify;" class="lead text-italic text-white font-weight-bold">No
+                                    âmbito das negociações, a adoção de uma abordagem
                                     transparente traz inúmeras vantagens técnicas. Negociações transparentes promovem uma
                                     cultura de comunicação aberta, permitindo que todas as partes compartilhem livremente
                                     informações, dados e insights vitais.</p>
@@ -266,10 +275,12 @@
                             <icon name="fa fa-user" class="mb-5" size="lg" type="indigo" shadow rounded></icon>
 
                             <h3 class="font-weight-bold">Ênfase no cliente</h3>
-                            <p style="text-align: justify;"  class="lead font-weight-bold">Com o cenário de negócios em constante evolução, a chave estratégica para obter
+                            <p style="text-align: justify;" class="lead font-weight-bold">Com o cenário de negócios em
+                                constante evolução, a chave estratégica para obter
                                 resultados triunfantes reside no alinhamento da execução dos projetos com a bússola das
                                 expectativas dos meus clientes.</p>
-                            <p style="text-align: justify;" class="font-weight-bold">Contar com a expertise do próprio cliente para garantir uma solução única e com a cara dele é
+                            <p style="text-align: justify;" class="font-weight-bold">Contar com a expertise do próprio
+                                cliente para garantir uma solução única e com a cara dele é
                                 um dos muitos caminhos para desenvolver um bom relacionamento.</p>
 
 
@@ -283,9 +294,12 @@
                 <div class="row row-grid justify-content-center">
                     <div class="col-lg-8 text-center">
                         <h2 class="display-3 text-purple font-weight-bold">Não apenas clientes, parceiros também!
-                        
+
                         </h2>
-                        <p style="text-align: justify;" class="lead font-weight-bold">Cada solução criada é o resultado de um esforço em colaboração memorável entre o desenvolvedor e o cliente, uma sinergia que garante o sucesso de ambos e forja uma relação de confiança sólida. Evidenciar esse relacionamento é sinônimo de compartilhar o sucesso conquistado junto aos nossos valiosos clientes!</p>
+                        <p style="text-align: justify;" class="lead font-weight-bold">Cada solução criada é o resultado de
+                            um esforço em colaboração memorável entre o desenvolvedor e o cliente, uma sinergia que garante
+                            o sucesso de ambos e forja uma relação de confiança sólida. Evidenciar esse relacionamento é
+                            sinônimo de compartilhar o sucesso conquistado junto aos nossos valiosos clientes!</p>
                         <div class="btn-wrapper">
                             <a target="_blank" href="mailto:janyel.lima2809@outlook.com"
                                 class="btn btn-indigo mb-3 mb-sm-0">Quero fazer parte!</a>
@@ -294,7 +308,8 @@
                             <h4 class="display-4 mb-5 mt-5">Clientes e parceiros</h4>
                             <div class="row justify-content-center">
                                 <div class="col-lg-2 col-4">
-                                    <a href="https://automining.com.br/" target="_blank" title="Automining - Business Process Intelligence">
+                                    <a href="https://automining.com.br/" target="_blank"
+                                        title="Automining - Business Process Intelligence">
                                         <img style="border-radius: 10px;"
                                             v-lazy="'https://media.licdn.com/dms/image/D4D0BAQGMRS0UgC3KnA/company-logo_200_200/0/1684761255518?e=1698278400&v=beta&t=PCpO1Oj3AMbrYSidr9dmhc1_tOZTnhZQlO2Pv3eWD08'"
                                             class="img-fluid">
@@ -376,11 +391,11 @@ export default {
                     const [day, month, year] = item.data.split('/').map(Number);
 
                     const itemDate = new Date(year, month, day);
-  
-                    return itemDate.getFullYear() === currentYear && itemDate.getMonth() === currentMonth;
-                    });
 
-                   
+                    return itemDate.getFullYear() === currentYear && itemDate.getMonth() === currentMonth;
+                });
+
+
 
                 if (dataMatchingCurrentMonth) {
                     this.inflacao = dataMatchingCurrentMonth.valor;
@@ -414,9 +429,9 @@ export default {
             return this.dolar;
         },
         fetchedInflacaoMensal() {
-            return this.in,flacao;
+            return this.in, flacao;
         },
-        fetchedGithubUser(){
+        fetchedGithubUser() {
             return this.githubuser;
         }
     },
@@ -431,7 +446,7 @@ export default {
         this.fetchGitHubData();
 
         // Fetch the API data every 5 seconds (adjust the interval as needed)
-        this.fetchInterval = setInterval(this.fetchData, 5000),setInterval(this.fetchBacenData,60000);setInterval(this.fetchGitHubData,60000);
+        this.fetchInterval = setInterval(this.fetchData, 5000), setInterval(this.fetchBacenData, 60000); setInterval(this.fetchGitHubData, 60000);
     },
     beforeDestroy() {
 
