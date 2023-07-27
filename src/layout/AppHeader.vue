@@ -16,7 +16,8 @@
                 <base-dropdown class="nav-item" menu-classes="dropdown-menu-xl">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-planet d-lg-none text-white"></i>
-                        <span class="nav-link-inner--text text-white font-weight-bold" style="font-size: large;">Void Works?</span>
+                        <span class="nav-link-inner--text text-white font-weight-bold" style="font-size: large;">Void
+                            Works?</span>
                     </a>
                     <div class="dropdown-menu-inner">
                         <a href="https://github.com/void-works-br" class="media d-flex align-items-center">
@@ -25,7 +26,8 @@
                             </div>
                             <div class="media-body ml-3">
                                 <h6 class="heading text-indigo mb-md-1 font-weight-bold">Organização no Github</h6>
-                                <p class="description d-none d-md-inline-block mb-0 font-weight-bold">Também é desenvolvedor freelancer?
+                                <p class="description d-none d-md-inline-block mb-0 font-weight-bold">Também é desenvolvedor
+                                    freelancer?
                                     Venha fazer parte da iniciativa Void Works!</p>
                             </div>
                         </a>
@@ -35,7 +37,8 @@
                             </div>
                             <div class="media-body ml-3">
                                 <h5 class="heading text-purple mb-md-1 font-weight-bold">Servidor no Discord</h5>
-                                <p class="description d-none d-md-inline-block mb-0 font-weight-bold">Em breve teremos o servidor da Void
+                                <p class="description d-none d-md-inline-block mb-0 font-weight-bold">Em breve teremos o
+                                    servidor da Void
                                     Works, fique ligado!</p>
                             </div>
                         </a>
@@ -44,7 +47,8 @@
                 <base-dropdown class="nav-item" menu-classes="dropdown-menu-xl">
                     <a slot="title" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="fa fa-clock-o d-lg-none text-white"></i>
-                        <span class="nav-link-inner--text text-white font-weight-bold" style="font-size: large;">Coming soon...</span>
+                        <span class="nav-link-inner--text text-white font-weight-bold" style="font-size: large;">Coming
+                            soon...</span>
                     </a>
                     <div class="dropdown-menu-inner">
                         <a href="#" class="media d-flex align-items-center">
@@ -53,7 +57,8 @@
                             </div>
                             <div class="media-body ml-3">
                                 <h6 class="heading text-light-purple mb-md-1 font-weight-bold">Lorem...</h6>
-                                <p class="description d-none d-md-inline-block mb-0 font-weight-bold">Lorem ipsum dolor sit amet, consectetur
+                                <p class="description d-none d-md-inline-block mb-0 font-weight-bold">Lorem ipsum dolor sit
+                                    amet, consectetur
                                     adipiscing elit. </p>
                             </div>
                         </a>
@@ -63,7 +68,8 @@
                             </div>
                             <div class="media-body ml-3">
                                 <h5 class="heading text-ultra-light mb-md-1 font-weight-bold">Ipsum...</h5>
-                                <p class="description d-none d-md-inline-block mb-0 font-weight-bold">Nunc ante dui, facilisis sit amet
+                                <p class="description d-none d-md-inline-block mb-0 font-weight-bold">Nunc ante dui,
+                                    facilisis sit amet
                                     luctus sit amet, gravida quis magna. </p>
                             </div>
                         </a>
@@ -122,9 +128,9 @@ export default {
 <style>
 .navbar-collapse.show {
 
-    border-radius: 10px!important;
+    border-radius: 10px !important;
     background: linear-gradient(150deg, #9D4EDD 5%, #5A189A 50%, #7B2CBF 95%) !important;
-    box-shadow: 0 0 15px -0.5px #ffffff!important;
+    box-shadow: 0 0 15px -0.5px #ffffff !important;
 }
 
 
@@ -134,8 +140,12 @@ export default {
     border-bottom: 1px solid rgb(255 255 255) !important;
 }
 
+.dropdown-menu-inner {
+
+    margin-left: 10px !important;
+}
+
 .navbar-toggler>span:not(.navbar-toggler-icon) {
 
     background: white !important;
-}
-</style>
+}</style>
