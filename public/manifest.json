@@ -1,0 +1,21 @@
+{
+    "name": "Void Works - Tymaeus's Homepage",
+    "short_name": "Tyameus Homepage",
+    "start_url": "/",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "./img/icons/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      }
+    ],
+    "splash_pages": null,
+    "scope": "/",
+    "serviceworker": {
+      "src": "./registerServiceWorker.js",
+      "scope": "/"
+    },
+    "permissions": [],
+    "orientation": "any"
+  }
