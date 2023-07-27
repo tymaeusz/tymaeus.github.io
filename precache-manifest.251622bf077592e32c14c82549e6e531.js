@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a388c34009896b6d4283",
-    "url": "/css/app.c1682310.css"
+    "revision": "e0ce6cdff43b8841e611",
+    "url": "/css/app.85c469d5.css"
   },
   {
-    "revision": "a388c34009896b6d4283",
-    "url": "/js/app.e6b98a86.js"
+    "revision": "e0ce6cdff43b8841e611",
+    "url": "/js/app.b8189127.js"
   },
   {
     "revision": "300c1f5302f66bcf7b4c",
@@ -14,6 +14,10 @@ self.__precacheManifest = [
   {
     "revision": "300c1f5302f66bcf7b4c",
     "url": "/js/chunk-vendors.de8575a2.js"
+  },
+  {
+    "revision": "426439788ec5ba772cdf94057f6f4659",
+    "url": "/fonts/nucleo-icons.42643978.woff2"
   },
   {
     "revision": "c1733565b32b585676302d4233c39da8",
@@ -28,28 +32,24 @@ self.__precacheManifest = [
     "url": "/fonts/nucleo-icons.f82ec6ba.ttf"
   },
   {
-    "revision": "426439788ec5ba772cdf94057f6f4659",
-    "url": "/fonts/nucleo-icons.42643978.woff2"
-  },
-  {
     "revision": "46abbc4a676739dbd61f8a305cb63fd8",
     "url": "/img/nucleo-icons.46abbc4a.svg"
-  },
-  {
-    "revision": "3d0ec57f40d62ba6a8e0d1857bb8f7d5",
-    "url": "/fonts/bootstrap-icons.3d0ec57f.woff"
   },
   {
     "revision": "a30fb81bd52143bcd4de2898422ac8b9",
     "url": "/fonts/bootstrap-icons.a30fb81b.woff2"
   },
   {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/fonts/fontawesome-webfont.674f50d2.eot"
+    "revision": "3d0ec57f40d62ba6a8e0d1857bb8f7d5",
+    "url": "/fonts/bootstrap-icons.3d0ec57f.woff"
   },
   {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
     "url": "/fonts/fontawesome-webfont.af7ae505.woff2"
+  },
+  {
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/fonts/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/img/fontawesome-webfont.acf3dcb7.svg"
   },
   {
-    "revision": "041fa45b355a2f3d59827a3e63e8a52e",
+    "revision": "156500ad2060b2f7df67715d35ff80d7",
     "url": "/index.html"
   },
   {
@@ -76,10 +76,6 @@ self.__precacheManifest = [
     "url": "/img/brand/creativetim-white-slim.png"
   },
   {
-    "revision": "e72f2c33df8ea0fd98ebd7ca712d15dc",
-    "url": "/img/brand/void-light.png"
-  },
-  {
     "revision": "8e55eab46b5fcfc4a7a0b27cb07c8888",
     "url": "/img/brand/github-white-slim.png"
   },
@@ -88,12 +84,16 @@ self.__precacheManifest = [
     "url": "/img/brand/favicon.png"
   },
   {
-    "revision": "514bd5c1aa0a3eea16b2392b11dbb683",
-    "url": "/img/brand/void.png"
-  },
-  {
     "revision": "6fafe4baca9d50d61a898c84ade7afa3",
     "url": "/img/brand/white.png"
+  },
+  {
+    "revision": "e72f2c33df8ea0fd98ebd7ca712d15dc",
+    "url": "/img/brand/void-light.png"
+  },
+  {
+    "revision": "514bd5c1aa0a3eea16b2392b11dbb683",
+    "url": "/img/brand/void.png"
   },
   {
     "revision": "594b1ee1d95ada356eaad078e9217932",
@@ -104,19 +104,19 @@ self.__precacheManifest = [
     "url": "/img/theme/promo-1.png"
   },
   {
-    "revision": "b70b1e9a9e4306c1fb2dd01a5ce2729a",
-    "url": "/img/theme/meet.jpg"
+    "revision": "24cd56559d6e89e6bf0247694764704f",
+    "url": "/img/theme/void-code.png"
   },
   {
     "revision": "8b1dda9bc2e1d8e753076e9f23a9df35",
     "url": "/img/theme/void-spring.png"
   },
   {
-    "revision": "0e4b4deb886f9d5606e2920a7844be72",
-    "url": "/img/theme/janyel-lima.jpg"
+    "revision": "b70b1e9a9e4306c1fb2dd01a5ce2729a",
+    "url": "/img/theme/meet.jpg"
   },
   {
-    "revision": "24cd56559d6e89e6bf0247694764704f",
-    "url": "/img/theme/void-code.png"
+    "revision": "0e4b4deb886f9d5606e2920a7844be72",
+    "url": "/img/theme/janyel-lima.jpg"
   }
 ];
