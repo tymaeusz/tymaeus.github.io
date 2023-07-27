@@ -36,20 +36,20 @@ self.__precacheManifest = [
     "url": "/img/nucleo-icons.46abbc4a.svg"
   },
   {
-    "revision": "a30fb81bd52143bcd4de2898422ac8b9",
-    "url": "/fonts/bootstrap-icons.a30fb81b.woff2"
-  },
-  {
     "revision": "3d0ec57f40d62ba6a8e0d1857bb8f7d5",
     "url": "/fonts/bootstrap-icons.3d0ec57f.woff"
   },
   {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/fonts/fontawesome-webfont.674f50d2.eot"
+    "revision": "a30fb81bd52143bcd4de2898422ac8b9",
+    "url": "/fonts/bootstrap-icons.a30fb81b.woff2"
   },
   {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
     "url": "/fonts/fontawesome-webfont.af7ae505.woff2"
+  },
+  {
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/fonts/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "b06871f281fee6b241d60582ae9369b9",
@@ -76,44 +76,44 @@ self.__precacheManifest = [
     "url": "/img/brand/creativetim-white-slim.png"
   },
   {
-    "revision": "8e55eab46b5fcfc4a7a0b27cb07c8888",
-    "url": "/img/brand/github-white-slim.png"
-  },
-  {
     "revision": "b9949387c6179e2dc4c675134a7b7935",
     "url": "/img/brand/favicon.png"
+  },
+  {
+    "revision": "8e55eab46b5fcfc4a7a0b27cb07c8888",
+    "url": "/img/brand/github-white-slim.png"
   },
   {
     "revision": "514bd5c1aa0a3eea16b2392b11dbb683",
     "url": "/img/brand/void.png"
   },
   {
-    "revision": "6fafe4baca9d50d61a898c84ade7afa3",
-    "url": "/img/brand/white.png"
-  },
-  {
     "revision": "e72f2c33df8ea0fd98ebd7ca712d15dc",
     "url": "/img/brand/void-light.png"
   },
   {
-    "revision": "b70b1e9a9e4306c1fb2dd01a5ce2729a",
-    "url": "/img/theme/meet.jpg"
+    "revision": "6fafe4baca9d50d61a898c84ade7afa3",
+    "url": "/img/brand/white.png"
   },
   {
     "revision": "594b1ee1d95ada356eaad078e9217932",
     "url": "/img/ill/ill-2.svg"
   },
   {
-    "revision": "0e4b4deb886f9d5606e2920a7844be72",
-    "url": "/img/theme/janyel-lima.jpg"
-  },
-  {
     "revision": "974088a1931e40895bac6db119c62448",
     "url": "/img/theme/promo-1.png"
   },
   {
+    "revision": "b70b1e9a9e4306c1fb2dd01a5ce2729a",
+    "url": "/img/theme/meet.jpg"
+  },
+  {
     "revision": "8b1dda9bc2e1d8e753076e9f23a9df35",
     "url": "/img/theme/void-spring.png"
+  },
+  {
+    "revision": "0e4b4deb886f9d5606e2920a7844be72",
+    "url": "/img/theme/janyel-lima.jpg"
   },
   {
     "revision": "24cd56559d6e89e6bf0247694764704f",
