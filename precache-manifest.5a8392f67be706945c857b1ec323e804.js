@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "aa3adef5bd00a4e076cd",
-    "url": "/css/app.4ec43b7f.css"
+    "revision": "a388c34009896b6d4283",
+    "url": "/css/app.c1682310.css"
   },
   {
-    "revision": "aa3adef5bd00a4e076cd",
-    "url": "/js/app.6810d081.js"
+    "revision": "a388c34009896b6d4283",
+    "url": "/js/app.e6b98a86.js"
   },
   {
     "revision": "300c1f5302f66bcf7b4c",
@@ -36,35 +36,35 @@ self.__precacheManifest = [
     "url": "/img/nucleo-icons.46abbc4a.svg"
   },
   {
-    "revision": "a30fb81bd52143bcd4de2898422ac8b9",
-    "url": "/fonts/bootstrap-icons.a30fb81b.woff2"
-  },
-  {
     "revision": "3d0ec57f40d62ba6a8e0d1857bb8f7d5",
     "url": "/fonts/bootstrap-icons.3d0ec57f.woff"
   },
   {
-    "revision": "af7ae505a9eed503f8b8e6982036873e",
-    "url": "/fonts/fontawesome-webfont.af7ae505.woff2"
+    "revision": "a30fb81bd52143bcd4de2898422ac8b9",
+    "url": "/fonts/bootstrap-icons.a30fb81b.woff2"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
     "url": "/fonts/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "b06871f281fee6b241d60582ae9369b9",
-    "url": "/fonts/fontawesome-webfont.b06871f2.ttf"
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/fonts/fontawesome-webfont.af7ae505.woff2"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/fonts/fontawesome-webfont.fee66e71.woff"
   },
   {
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/fonts/fontawesome-webfont.b06871f2.ttf"
+  },
+  {
     "revision": "acf3dcb7ff752b5296ca23ba2c7c2606",
     "url": "/img/fontawesome-webfont.acf3dcb7.svg"
   },
   {
-    "revision": "0f576af0b94fe7646db9ddd13bd77cab",
+    "revision": "041fa45b355a2f3d59827a3e63e8a52e",
     "url": "/index.html"
   },
   {
@@ -76,24 +76,24 @@ self.__precacheManifest = [
     "url": "/img/brand/creativetim-white-slim.png"
   },
   {
-    "revision": "b9949387c6179e2dc4c675134a7b7935",
-    "url": "/img/brand/favicon.png"
+    "revision": "e72f2c33df8ea0fd98ebd7ca712d15dc",
+    "url": "/img/brand/void-light.png"
   },
   {
     "revision": "8e55eab46b5fcfc4a7a0b27cb07c8888",
     "url": "/img/brand/github-white-slim.png"
   },
   {
-    "revision": "e72f2c33df8ea0fd98ebd7ca712d15dc",
-    "url": "/img/brand/void-light.png"
-  },
-  {
-    "revision": "6fafe4baca9d50d61a898c84ade7afa3",
-    "url": "/img/brand/white.png"
+    "revision": "b9949387c6179e2dc4c675134a7b7935",
+    "url": "/img/brand/favicon.png"
   },
   {
     "revision": "514bd5c1aa0a3eea16b2392b11dbb683",
     "url": "/img/brand/void.png"
+  },
+  {
+    "revision": "6fafe4baca9d50d61a898c84ade7afa3",
+    "url": "/img/brand/white.png"
   },
   {
     "revision": "594b1ee1d95ada356eaad078e9217932",
