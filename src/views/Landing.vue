@@ -26,7 +26,7 @@
 
 
         <section class="section section-lg pt-lg-0 mt--200">
-            <div class="profile-page">
+            <div class="profile-page" >
                 <section class="section section-skew">
                     <div class="container">
                         <card shadow body-classes="py-10"
@@ -99,11 +99,9 @@
                                                 Olá! Sou Janyel Barbosa Lima, um Desenvolvedor de Software com habilidades
                                                 em Business Intelligence (MS Power BI) e consultoria de processos (BPMN).
                                                 Tenho dedicado 4 anos ao aprimoramento nesse segmento, com experiência desde
-                                                minha trajetória na <a style="color: #e0aaff;" class="font-weight-bold"
-                                                    href="https://vale-verde.com/">Mineração Vale
-                                                    Verde</a> até trabalhos como desenvolvedor freelancer em parceria com a
-                                                <a style="color: #e0aaff;" class="font-weight-bold"
-                                                    href="https://automining.com.br/">Automining</a>.
+                                                minha trajetória na Mineração Vale
+                                                    Verde até trabalhos como desenvolvedor freelancer em parceria com a
+                                                Automining
                                             </p>
                                             <p style="text-align: justify;line-height: 1.6;  margin: 0 0 16px;color: white;"
                                                 class="font-weight-bold">
@@ -299,7 +297,7 @@
                         <p style="text-align: justify;" class="lead font-weight-bold">Cada solução criada é o resultado de
                             um esforço em colaboração memorável entre o desenvolvedor e o cliente, uma sinergia que garante
                             o sucesso de ambos e forja uma relação de confiança sólida. Evidenciar esse relacionamento é
-                            sinônimo de compartilhar o sucesso conquistado junto aos nossos valiosos clientes!</p>
+                            sinônimo de compartilhar o sucesso conquistado junto dos meus valiosos clientes!</p>
                         <div class="btn-wrapper">
                             <a target="_blank" href="mailto:janyel.lima2809@outlook.com"
                                 class="btn btn-indigo mb-3 mb-sm-0">Quero fazer parte!</a>
