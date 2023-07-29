@@ -371,8 +371,8 @@ export default {
         async fetchData() {
             try {
                 const response = await axios.get('https://economia.awesomeapi.com.br/last/USD-BRL');
-                const high = response.data.USDBRL.high;
-                this.dolar = this.formatCurrency(high);
+                const bid = response.data.USDBRL.bid;
+                this.dolar = this.formatCurrency(bid);
             } catch (error) {
                 console.error('Erro ao buscar dados da API :', error);
             }
