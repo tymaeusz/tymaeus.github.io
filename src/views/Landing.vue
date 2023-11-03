@@ -150,7 +150,7 @@
                                     <base-button target="_blank" tag="a"
                                         href="https://fia.com.br/blog/desenvolvimento-de-softwares/" type="indigo"
                                         class="mt-4">
-                                        Saber mais
+                                        Saiba mais
                                     </base-button>
                                 </card>
                             </div>
@@ -173,7 +173,7 @@
                                     </div>
                                     <base-button target="_blank" tag="a" href="https://powerbi.microsoft.com/pt-br/"
                                         type="indigo" class="mt-4">
-                                        Saber mais
+                                        Saiba mais
                                     </base-button>
                                 </card>
                             </div>
@@ -196,7 +196,7 @@
                                     </div>
                                     <base-button target="_blank" tag="a" href="https://camunda.com/bpmn/" type="indigo"
                                         class="mt-4">
-                                        Saber mais
+                                        Saiba mais
                                     </base-button>
                                 </card>
                             </div>
