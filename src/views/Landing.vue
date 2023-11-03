@@ -44,7 +44,7 @@
                                     <div class="col-lg-4 order-lg-3 text-lg-right align-self-lg-center">
                                         <div class="card-profile-actions py-4 mt-lg-0">
                                             <base-button role="button" tag="a" target="_blank"
-                                                href="mailto:janyel.lima2809@outlook.com" type="light-purple"
+                                                href="mailto:janyel.lima2809@outlook.com" type="ultra-light"
                                                 icon="fa fa-envelope" size="sm" class="mr-4">Enviar
                                                 e-mail</base-button>
                                             <base-button role="button" tag="a" target="_blank"
@@ -61,11 +61,15 @@
                                                 <span style="color: white;" class="description font-weight-bold">Dólar
                                                     (diário)</span>
                                             </div>
-                                            <div>
-                                                <span style="color: #e0aaff;" class="heading">{{ inflacao }}%</span>
-                                                <span style="color: white;" class="description font-weight-bold">IPCA
-                                                    (mensal)</span>
-                                            </div>
+                                            <div v-if="inflacao !== null">
+    <span style="color: #e0aaff;" class="heading">{{ inflacao }}%</span>
+    <span style="color: white;" class="description font-weight-bold">IPCA (mensal)</span>
+</div>
+
+<div>
+    <span style="color: #e0aaff;" class="heading">{{ clientes }}</span>
+    <span style="color: white;" class="description font-weight-bold">Clientes</span>
+</div>
                                             <div>
                                                 <span style="color: #e0aaff;" class="heading">{{ repos }}</span>
                                                 <span style="color: white;"
@@ -128,9 +132,9 @@
                         <div class="row row-grid">
                             <div class="col-lg-4">
                                 <card style="border-radius: 10px;" class="border-0" hover shadow body-classes="py-10">
-                                    <icon name="fa fa-code" type="light-purple" rounded class="mb-4">
+                                    <icon name="fa fa-code" type="indigo" rounded class="mb-4">
                                     </icon>
-                                    <h6 class="text-light-purple text-uppercase display-5 font-weight-bold">Software
+                                    <h6 class="text-indigo text-uppercase display-5 font-weight-bold">Software
                                         Development</h6>
                                     <p style="text-align: justify;" class="description mt-3 font-weight-bold">Automatize
                                         seus processos com meus serviços
@@ -144,7 +148,7 @@
                                         <badge type="light-purple" rounded>tecnologia</badge>
                                     </div>
                                     <base-button target="_blank" tag="a"
-                                        href="https://fia.com.br/blog/desenvolvimento-de-softwares/" type="light-purple"
+                                        href="https://fia.com.br/blog/desenvolvimento-de-softwares/" type="indigo"
                                         class="mt-4">
                                         Saber mais
                                     </base-button>
@@ -163,9 +167,9 @@
                                         liberar o verdadeiro potencial de seus dados, transformando números brutos em
                                         inteligência acionável. </p>
                                     <div>
-                                        <badge type="indigo" rounded>Intenligência de Negócios</badge>
-                                        <badge type="indigo" rounded>Dados</badge>
-                                        <badge type="indigo" rounded>Power BI</badge>
+                                        <badge type="light-purple" rounded>Intenligência de Negócios</badge>
+                                        <badge type="light-purple" rounded>Dados</badge>
+                                        <badge type="light-purple" rounded>Power BI</badge>
                                     </div>
                                     <base-button target="_blank" tag="a" href="https://powerbi.microsoft.com/pt-br/"
                                         type="indigo" class="mt-4">
@@ -175,22 +179,22 @@
                             </div>
                             <div class="col-lg-4">
                                 <card class="border-1" style="border-radius: 10px;" hover shadow body-classes="py-10">
-                                    <icon name="fa fa-line-chart" type="purple" rounded class="mb-4">
+                                    <icon name="fa fa-line-chart" type="indigo" rounded class="mb-4">
 
                                     </icon>
 
-                                    <h6 class="text-purple text-uppercase display-5 font-weight-bold">Business Process</h6>
+                                    <h6 class="text-indigo text-uppercase display-5 font-weight-bold">Business Process</h6>
                                     <p style="text-align: justify;" class="description mt-3 font-weight-bold">Explore futuro
                                         da otimização de negócios
-                                        com BPMN (Business Process Model and Notation). Eleve o desempenho de sua empresa',
+                                        com BPMN (Business Process Model and Notation). Eleve o desempenho de sua empresa,
                                         pois o BPMN permite que você orquestre fluxos de trabalho complexos com precisão
                                         cirúrgica.</p>
                                     <div>
-                                        <badge type="purple" rounded>processo de negócio</badge>
-                                        <badge type="purple" rounded>bpmn</badge>
-                                        <badge type="purple" rounded>otimização</badge>
+                                        <badge type="light-purple" rounded>processo de negócio</badge>
+                                        <badge type="light-purple" rounded>bpmn</badge>
+                                        <badge type="light-purple" rounded>otimização</badge>
                                     </div>
-                                    <base-button target="_blank" tag="a" href="https://camunda.com/bpmn/" type="purple"
+                                    <base-button target="_blank" tag="a" href="https://camunda.com/bpmn/" type="indigo"
                                         class="mt-4">
                                         Saber mais
                                     </base-button>
@@ -202,7 +206,7 @@
             </div>
         </section>
         <section class="section section-lg"
-            style="background: linear-gradient(150deg, #be92ff 30%, #3c096c 80%, #240046 94%)!important;">
+            style="background: linear-gradient(150deg, #603a99 30%, #3c096c 80%, #240046 94%)!important;">
             <div class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6 order-md-2">
@@ -210,10 +214,10 @@
                     </div>
                     <div class="col-md-6 order-md-1">
                         <div class="pr-md-5">
-                            <icon name="ni ni-settings" class="mb-5 text-white" size="lg" type="indigo" shadow rounded>
+                            <icon name="ni ni-settings" class="mb-5" style="color: #f6edff" size="lg" type="light-purple" shadow rounded>
                             </icon>
-                            <h3 style="color: #3C096C;font-weight: bold;">Soluções customizáveis</h3>
-                            <p style="color: white;text-align: justify;" class="font-weight-bold">Reconhecendo que cada
+                            <h3 style="color: #f6edff;font-weight: bold;">Soluções customizáveis</h3>
+                            <p style="color: #f6edff;text-align: justify;font-weight: bold;">Reconhecendo que cada
                                 cliente é único, procuro
                                 focar minha abordagem em criar soluções sob medida, adaptadas às suas necessidades
                                 específicas. Almejando a transparência no desenvolvimento e entrega da solução, assim como
@@ -221,22 +225,22 @@
                             <ul class="list-unstyled mt-5">
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
-                                        <badge type="indigo" circle class="mr-3 text-white" icon="fa fa-code"></badge>
-                                        <h6 style="color: white;" class="mb-0 font-weight-bold">Sistemas desenvolvidos
+                                        <badge type="light-purple" circle class="mr-3 text-white" icon="fa fa-code"></badge>
+                                        <h6 style="color: #f6edff;" class="mb-0 font-weight-bold">Sistemas desenvolvidos
                                             cuidadosamente</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
-                                        <badge type="indigo" circle class="mr-3 text-white" icon="fa fa-line-chart"></badge>
-                                        <h6 style="color: white;" class="mb-0 font-weight-bold">Otimização dos processos da
+                                        <badge type="light-purple" circle class="mr-3 text-white" icon="fa fa-line-chart"></badge>
+                                        <h6 style="color: #f6edff;" class="mb-0 font-weight-bold">Otimização dos processos da
                                             organização</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
-                                        <badge type="indigo" circle class="mr-3 text-white" icon="ni ni-satisfied"></badge>
-                                        <h6 style="color: white;" class="mb-0 font-weight-bold">Suporte e compromisso com o
+                                        <badge type="light-purple" circle class="mr-3 text-white" icon="ni ni-satisfied"></badge>
+                                        <h6 style="color: #f6edff;" class="mb-0 font-weight-bold">Suporte e compromisso com o
                                             cliente</h6>
                                     </div>
                                 </li>
@@ -308,9 +312,9 @@
                                 <div class="col-lg-2 col-4">
                                     <a href="https://automining.com.br/" target="_blank"
                                         title="Automining - Business Process Intelligence">
-                                        <img style="border-radius: 10px;"
-                                            v-lazy="'https://media.licdn.com/dms/image/D4D0BAQGMRS0UgC3KnA/company-logo_200_200/0/1684761255518?e=1698278400&v=beta&t=PCpO1Oj3AMbrYSidr9dmhc1_tOZTnhZQlO2Pv3eWD08'"
-                                            class="img-fluid">
+                                        <img style="border-radius: 5px;"
+                                            v-lazy="'https://media.licdn.com/dms/image/D4D0BAQGMRS0UgC3KnA/company-logo_200_200/0/1684761255518?e=1707350400&v=beta&t=1OJYSVYYwB5orI56CsHF0nLGxEuO13jaSMl2oYa-rLA'"
+                                            class="img-fluid clients">
                                     </a>
                                 </div>
 
@@ -332,11 +336,13 @@ export default {
     data() {
         return {
             birthDate: '2000-09-28',
+            className: 'clients',
             age: null,
             dolar: null,
             inflacao: null,
             githubuser: [],
-            repos: null
+            repos: null,
+            clientes : null
         };
     },
     methods: {
@@ -354,6 +360,14 @@ export default {
 
             return age;
         },
+        
+        countElementsWithClass(className) {
+        const elements = document.getElementsByClassName(className);
+        let count = elements.length;
+        return count;;
+        }
+        
+        ,
 
         updateAgePeriodically() {
             this.age = this.calculateAge(this.birthDate);
@@ -442,6 +456,12 @@ export default {
         this.fetchData();
         this.fetchBacenData();
         this.fetchGitHubData();
+
+
+        this.$nextTick(() => {
+    // Count elements with class 'img-fluid' after the DOM is updated
+    this.clientes = this.countElementsWithClass(this.className);
+  });
 
         // Fetch the API data every 5 seconds (adjust the interval as needed)
         this.fetchInterval = setInterval(this.fetchData, 5000), setInterval(this.fetchBacenData, 60000); setInterval(this.fetchGitHubData, 60000);
