@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7f86bb7df9f09e789144",
+    "revision": "b640ff1cd4fe470d263e",
     "url": "/css/app.f93e99e7.css"
   },
   {
-    "revision": "7f86bb7df9f09e789144",
-    "url": "/js/app.46988476.js"
+    "revision": "b640ff1cd4fe470d263e",
+    "url": "/js/app.7ddc43c2.js"
   },
   {
     "revision": "300c1f5302f66bcf7b4c",
@@ -36,12 +36,16 @@ self.__precacheManifest = [
     "url": "/img/nucleo-icons.46abbc4a.svg"
   },
   {
+    "revision": "a30fb81bd52143bcd4de2898422ac8b9",
+    "url": "/fonts/bootstrap-icons.a30fb81b.woff2"
+  },
+  {
     "revision": "3d0ec57f40d62ba6a8e0d1857bb8f7d5",
     "url": "/fonts/bootstrap-icons.3d0ec57f.woff"
   },
   {
-    "revision": "a30fb81bd52143bcd4de2898422ac8b9",
-    "url": "/fonts/bootstrap-icons.a30fb81b.woff2"
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/fonts/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
@@ -52,10 +56,6 @@ self.__precacheManifest = [
     "url": "/fonts/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/fonts/fontawesome-webfont.674f50d2.eot"
-  },
-  {
     "revision": "b06871f281fee6b241d60582ae9369b9",
     "url": "/fonts/fontawesome-webfont.b06871f2.ttf"
   },
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/img/fontawesome-webfont.acf3dcb7.svg"
   },
   {
-    "revision": "4b0c244b8ac000d6a24daa298c705a77",
+    "revision": "e20874ab84032e3bccf748900e566fca",
     "url": "/index.html"
   },
   {
@@ -84,12 +84,16 @@ self.__precacheManifest = [
     "url": "/img/ill/ill-2.svg"
   },
   {
-    "revision": "974088a1931e40895bac6db119c62448",
-    "url": "/img/theme/promo-1.png"
-  },
-  {
     "revision": "b70b1e9a9e4306c1fb2dd01a5ce2729a",
     "url": "/img/theme/meet.jpg"
+  },
+  {
+    "revision": "35605568ed0db256f2f832e3732bbc24",
+    "url": "/img/theme/planejare.jpeg"
+  },
+  {
+    "revision": "974088a1931e40895bac6db119c62448",
+    "url": "/img/theme/promo-1.png"
   },
   {
     "revision": "8b1dda9bc2e1d8e753076e9f23a9df35",
