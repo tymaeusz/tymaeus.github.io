@@ -317,6 +317,14 @@
                                             class="img-fluid clients">
                                     </a>
                                 </div>
+                                <div class="col-lg-2 col-4">
+                                    <a href="https://www.instagram.com/planejareconsultoria" target="_blank"
+                                        title="Planejare Consultoria - Consultoria de Negócios">
+                                        <img style="border-radius: 5px;"
+                                            v-lazy="'img/theme/planejare.jpeg'"
+                                            class="img-fluid clients">
+                                    </a>
+                                </div>
 
                             </div>
                         </div>
