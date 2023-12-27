@@ -70,11 +70,7 @@
     <span style="color: #e0aaff;" class="heading">{{ clientes }}</span>
     <span style="color: white;" class="description font-weight-bold">Clientes</span>
 </div>
-                                            <div>
-                                                <span style="color: #e0aaff;" class="heading">{{ repos }}</span>
-                                                <span style="color: white;"
-                                                    class="description font-weight-bold">Repositórios públicos</span>
-                                            </div>
+                                            
 
                                         </div>
                                     </div>
@@ -349,7 +345,6 @@ export default {
             dolar: null,
             inflacao: null,
             githubuser: [],
-            repos: null,
             clientes : null
         };
     },
@@ -430,18 +425,6 @@ export default {
             }
         },
 
-        async fetchGitHubData() {
-            try {
-                const response = await axios.get('https://api.github.com/users/tymaeusz');
-                const githubUser = response.data;
-                this.githubuser = githubUser;
-                this.repos = githubUser.public_repos;
-
-            } catch (error) {
-                console.error('Error fetching API data:', error);
-                this.loading = false;
-            }
-        }
 
     },
     computed: {
@@ -463,7 +446,6 @@ export default {
         // Fetch the API data immediately when the component is created
         this.fetchData();
         this.fetchBacenData();
-        this.fetchGitHubData();
 
 
         this.$nextTick(() => {
@@ -472,7 +454,7 @@ export default {
   });
 
         // Fetch the API data every 5 seconds (adjust the interval as needed)
-        this.fetchInterval = setInterval(this.fetchData, 5000), setInterval(this.fetchBacenData, 60000); setInterval(this.fetchGitHubData, 60000);
+        this.fetchInterval = setInterval(this.fetchData, 5000), setInterval(this.fetchBacenData, 60000);
     },
     beforeDestroy() {
 
