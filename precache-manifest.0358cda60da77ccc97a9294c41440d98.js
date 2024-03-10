@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/fonts/nucleo-icons.c1733565.eot"
   },
   {
-    "revision": "426439788ec5ba772cdf94057f6f4659",
-    "url": "/fonts/nucleo-icons.42643978.woff2"
-  },
-  {
     "revision": "2569aaea6eaaf8cd210db7f2fa016743",
     "url": "/fonts/nucleo-icons.2569aaea.woff"
+  },
+  {
+    "revision": "426439788ec5ba772cdf94057f6f4659",
+    "url": "/fonts/nucleo-icons.42643978.woff2"
   },
   {
     "revision": "f82ec6ba2dc4181db2af35c499462840",
@@ -36,16 +36,16 @@ self.__precacheManifest = [
     "url": "/img/nucleo-icons.46abbc4a.svg"
   },
   {
-    "revision": "3d0ec57f40d62ba6a8e0d1857bb8f7d5",
-    "url": "/fonts/bootstrap-icons.3d0ec57f.woff"
-  },
-  {
     "revision": "a30fb81bd52143bcd4de2898422ac8b9",
     "url": "/fonts/bootstrap-icons.a30fb81b.woff2"
   },
   {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/fonts/fontawesome-webfont.674f50d2.eot"
+    "revision": "3d0ec57f40d62ba6a8e0d1857bb8f7d5",
+    "url": "/fonts/bootstrap-icons.3d0ec57f.woff"
+  },
+  {
+    "revision": "fee66e712a8a08eef5805a46892932ad",
+    "url": "/fonts/fontawesome-webfont.fee66e71.woff"
   },
   {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/fonts/fontawesome-webfont.b06871f2.ttf"
   },
   {
-    "revision": "fee66e712a8a08eef5805a46892932ad",
-    "url": "/fonts/fontawesome-webfont.fee66e71.woff"
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/fonts/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "acf3dcb7ff752b5296ca23ba2c7c2606",
@@ -80,24 +80,20 @@ self.__precacheManifest = [
     "url": "/img/brand/void.png"
   },
   {
-    "revision": "41febdb41e28771462fd6a6e50295b90",
-    "url": "/img/theme/automining.jpeg"
-  },
-  {
     "revision": "594b1ee1d95ada356eaad078e9217932",
     "url": "/img/ill/ill-2.svg"
   },
   {
-    "revision": "974088a1931e40895bac6db119c62448",
-    "url": "/img/theme/promo-1.png"
+    "revision": "41febdb41e28771462fd6a6e50295b90",
+    "url": "/img/theme/automining.jpeg"
   },
   {
     "revision": "b70b1e9a9e4306c1fb2dd01a5ce2729a",
     "url": "/img/theme/meet.jpg"
   },
   {
-    "revision": "80911df146f7118406ee305df4386243",
-    "url": "/img/theme/janyel-lima.jpg"
+    "revision": "974088a1931e40895bac6db119c62448",
+    "url": "/img/theme/promo-1.png"
   },
   {
     "revision": "35605568ed0db256f2f832e3732bbc24",
@@ -106,6 +102,10 @@ self.__precacheManifest = [
   {
     "revision": "8b1dda9bc2e1d8e753076e9f23a9df35",
     "url": "/img/theme/void-spring.png"
+  },
+  {
+    "revision": "80911df146f7118406ee305df4386243",
+    "url": "/img/theme/janyel-lima.jpg"
   },
   {
     "revision": "24cd56559d6e89e6bf0247694764704f",
