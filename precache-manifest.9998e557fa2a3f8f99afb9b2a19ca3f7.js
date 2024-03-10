@@ -16,20 +16,20 @@ self.__precacheManifest = [
     "url": "/js/chunk-vendors.de8575a2.js"
   },
   {
-    "revision": "c1733565b32b585676302d4233c39da8",
-    "url": "/fonts/nucleo-icons.c1733565.eot"
+    "revision": "426439788ec5ba772cdf94057f6f4659",
+    "url": "/fonts/nucleo-icons.42643978.woff2"
   },
   {
     "revision": "2569aaea6eaaf8cd210db7f2fa016743",
     "url": "/fonts/nucleo-icons.2569aaea.woff"
   },
   {
-    "revision": "426439788ec5ba772cdf94057f6f4659",
-    "url": "/fonts/nucleo-icons.42643978.woff2"
-  },
-  {
     "revision": "f82ec6ba2dc4181db2af35c499462840",
     "url": "/fonts/nucleo-icons.f82ec6ba.ttf"
+  },
+  {
+    "revision": "c1733565b32b585676302d4233c39da8",
+    "url": "/fonts/nucleo-icons.c1733565.eot"
   },
   {
     "revision": "46abbc4a676739dbd61f8a305cb63fd8",
@@ -44,16 +44,16 @@ self.__precacheManifest = [
     "url": "/fonts/bootstrap-icons.3d0ec57f.woff"
   },
   {
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/fonts/fontawesome-webfont.af7ae505.woff2"
+  },
+  {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
     "url": "/fonts/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/fonts/fontawesome-webfont.fee66e71.woff"
-  },
-  {
-    "revision": "af7ae505a9eed503f8b8e6982036873e",
-    "url": "/fonts/fontawesome-webfont.af7ae505.woff2"
   },
   {
     "revision": "b06871f281fee6b241d60582ae9369b9",
@@ -84,28 +84,28 @@ self.__precacheManifest = [
     "url": "/img/ill/ill-2.svg"
   },
   {
-    "revision": "b70b1e9a9e4306c1fb2dd01a5ce2729a",
-    "url": "/img/theme/meet.jpg"
-  },
-  {
     "revision": "41febdb41e28771462fd6a6e50295b90",
     "url": "/img/theme/automining.jpeg"
   },
   {
-    "revision": "974088a1931e40895bac6db119c62448",
-    "url": "/img/theme/promo-1.png"
+    "revision": "b70b1e9a9e4306c1fb2dd01a5ce2729a",
+    "url": "/img/theme/meet.jpg"
   },
   {
     "revision": "35605568ed0db256f2f832e3732bbc24",
     "url": "/img/theme/planejare.jpeg"
   },
   {
-    "revision": "8b1dda9bc2e1d8e753076e9f23a9df35",
-    "url": "/img/theme/void-spring.png"
+    "revision": "974088a1931e40895bac6db119c62448",
+    "url": "/img/theme/promo-1.png"
   },
   {
-    "revision": "99349fda4f38ddfb57edfd463379d4d0",
+    "revision": "e04e236a20f5861e62b7606121d0ff49",
     "url": "/img/theme/janyel-lima.jpg"
+  },
+  {
+    "revision": "8b1dda9bc2e1d8e753076e9f23a9df35",
+    "url": "/img/theme/void-spring.png"
   },
   {
     "revision": "24cd56559d6e89e6bf0247694764704f",
