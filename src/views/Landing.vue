@@ -86,10 +86,9 @@
                                     <div style="color: white;" class="h6 mt-4 font-weight-400"><i
                                             class="ni business_briefcase-24 mr-2"></i>Desenvolvedor Java
                                         Fullstack -
-                                        Freelancer/Void Works</div>
+                                        Freelancer</div>
                                     <div style="color: white;"><i
-                                            class="ni education_hat mr-2 font-weight-400"></i>Universidade Estadual de
-                                        Alagoas</div>
+                                            class="ni education_hat mr-2 font-weight-400"></i>Analista de Processos e Sistemas</div>
                                 </div>
                                 <div class="mt-5 py-5 border-top text-center">
                                     <div class="row justify-content-center">
@@ -99,9 +98,8 @@
                                                 Olá! Sou Janyel Barbosa Lima, um Desenvolvedor de Software com habilidades
                                                 em Business Intelligence (MS Power BI) e consultoria de processos (BPMN).
                                                 Tenho dedicado 4 anos ao aprimoramento nesse segmento, com experiência desde
-                                                minha trajetória na Mineração Vale
-                                                    Verde até trabalhos como desenvolvedor freelancer em parceria com a
-                                                Automining
+                                                minha trajetória na Mineração Vale Verde até trabalhos como desenvolvedor freelancer em parceria com a
+                                                Automining e Planejare Consultoria.
                                             </p>
                                             <p style="text-align: justify;line-height: 1.6;  margin: 0 0 16px;color: white;"
                                                 class="font-weight-bold">
@@ -309,7 +307,7 @@
                                     <a href="https://automining.com.br/" target="_blank"
                                         title="Automining - Business Process Intelligence">
                                         <img style="border-radius: 5px;"
-                                            v-lazy="'https://media.licdn.com/dms/image/D4D0BAQGMRS0UgC3KnA/company-logo_200_200/0/1684761255518?e=1707350400&v=beta&t=1OJYSVYYwB5orI56CsHF0nLGxEuO13jaSMl2oYa-rLA'"
+                                            v-lazy="'img/theme/automining.jpeg'"
                                             class="img-fluid clients">
                                     </a>
                                 </div>
