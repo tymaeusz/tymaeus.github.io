@@ -56,7 +56,7 @@
                 <div class="col-md-6">
                     <div style="color: white;" class="copyright font-weight-bold">
                         &copy; {{ year }}
-                        <a class="font-weight-bold" style="color: white;" href="https://tymaeus.dev" target="_blank"
+                        <a class="font-weight-bold" style="color: white;" href="https://tymaeusz.github.io" target="_blank"
                             rel="noopener">Janyel B. Lima (Tymaeus) </a>
                     </div>
                 </div>
